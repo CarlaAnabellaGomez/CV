@@ -1,0 +1,58 @@
+/**
+mi comentario
+*/
+
+body {
+    background-color:rgb(255, 255, 255); opacity:0,1;
+}
+
+#img {
+    margin: 30px solid; color:aqua;
+}
+
+#div_educacion h1,#div_experiencia_laboral h1,
+#div_acomplementarias h1, #div_perfil h1, #div_contacto h1, 
+#div_titulo h1 
+ {
+    background-color: rgba(27, 108, 115, 1);
+    height: 86,93px; width: 467,15px; color:white; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px; padding-top:30px; padding-bottom:30px;
+    padding-left:10px; padding-right:15px;     
+}
+
+#div_educacion h2,#div_educacion2 h1, #div_experiencia_laboral h2,
+#div_experiencia_laboral_2 h1, #div_contacto p {
+    color:black; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px; font-weight:bold; margin:5px; border:2px;
+}
+
+#div_educacion h3,#div_educacion2 h2,#div_experiencia_laboral h3,
+#div_experiencia_laboral_2 h2 {
+    color:black; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;  margin:5px; border:2px;
+}
+
+#div_educacion p,#div_educacion2 p,#div_experiencia_laboral p,
+#div_experiencia_laboral p2, #div_experiencia_laboral_2 p, #div_acomplementarias p,
+#div_acomplementarias2 p,
+#div_acomplementarias2 p2 {
+    color:black; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16,67px;  margin:5px; border:2px;  
+}
+
+#div_perfil p {
+    color:black; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;  margin:5px; border:2px;  
+}
+* p {
+    color:orange
+}
+
+*{
+box-sizing:border-box;
+} 
