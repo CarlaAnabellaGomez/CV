@@ -12,7 +12,8 @@ body {
 
 #div_educacion h1,#div_experiencia_laboral h1,
 #div_acomplementarias h1, #div_perfil h1, #div_contacto h1, 
-#div_titulo h1 
+#div_titulo h1, #div_perfil2 h1, #div_perfil2 h2, #div_perfil2 h3, 
+#div_perfil2 h4
  {
     background-color: rgba(27, 108, 115, 1);
     height: 86,93px; width: 467,15px; color:white; 
@@ -44,11 +45,21 @@ body {
     font-size: 16,67px;  margin:5px; border:2px;  
 }
 
+/**
+Alternativo para parrafo en perfil sin js
 #div_perfil p {
     color:black; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;  margin:5px; border:2px;  
 }
+*/
+#div_perfil2 button
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;  margin:5px; border:2px; 
+}
+
+
 * p {
     color:orange
 }
